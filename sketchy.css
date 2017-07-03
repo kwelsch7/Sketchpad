@@ -51,6 +51,7 @@ canvas {
     background-color: #eaeaea;
     border-style: solid;
     border-color: #fff #ccc #ccc #fff;
+    box-shadow: 4px 4px 10px #b00000;
 }
 
 #left-button {
