@@ -2,3 +2,61 @@
     margin: 0;
     padding: 0;
 }
+
+#border {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 20px auto;
+    max-width: 800px;
+    max-height: 800px;
+    background-color: #d00;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #ea6666 #b00000 #b00000 #ea6666;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-family: "Dancing Script", cursive;
+    color: #dedf24;
+}
+
+canvas {
+    box-sizing: border-box;
+    margin: 80px 65px;
+    width: 100%;
+    height: 100%;
+    max-width: 670px;
+    max-height: 640px;
+    background-color: #faffd5;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #b00000 #ea6666 #ea6666 #b00000;
+    border-radius: 6px;
+    box-shadow: inset 6px 6px 10px #afb295;
+}
+
+#left-button, #right-button {
+    box-sizing: border-box;
+    position: absolute;
+    margin: 0 auto;
+    top: 430px;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-color: #eaeaea;
+    border-style: solid;
+    border-color: #fff #ccc #ccc #fff;
+}
+
+#left-button {
+    left: 20px;
+}
+
+#right-button {
+    left: 710px;
+}
