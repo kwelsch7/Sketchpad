@@ -63,6 +63,10 @@ h1 {
     left: 710px;
 }
 
+#left-button:hover {
+    background-color: #ddd;
+}
+
 .grid-row {
     display: block;
 }

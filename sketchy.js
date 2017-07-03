@@ -1,6 +1,7 @@
 $(document).ready(function() {
     createGrid();
     $("#canvas").on("mouseenter", "div div", colorSquare);
+    $("#left-button").on("click", clearCanvas);
 });
 
 function createGrid(dimX, dimY) {
@@ -23,4 +24,12 @@ function createGrid(dimX, dimY) {
 
 function colorSquare() {
     $(this).addClass("colored");
+}
+
+function clearCanvas() {
+    $("#canvas").empty();
+
+    // a prompt to ask for new grid size
+
+    createGrid();  // will get values from prompt
 }
